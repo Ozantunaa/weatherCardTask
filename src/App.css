@@ -87,3 +87,8 @@ span {
   width: 100px;
   margin-left: 40px;
 }
+
+.statustyle {
+  margin-left: 45px;
+  font-weight: 600;
+}

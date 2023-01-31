@@ -1,5 +1,6 @@
 import { weatherdata } from '../data/weatherdata';
 import weatherimage from '../assest/partly_cloudy.png'
+import WeatherDetails from './WeatherDetails';
 
 const WeatherCard = () => {
     return (
@@ -9,10 +10,11 @@ const WeatherCard = () => {
                 <span className='weathernum'>{weatherdata.degree}</span>
                 <span style={{ fontSize: '20px', paddingBottom: '50px', }}>°C</span>
                 <div style={{ flexDirection: 'column', display: 'flex', alignItems: 'center' }}>
-                    <img className='weatherimage' src={weatherimage} />
-                    <span>{weatherdata.weatherstatus}</span>
+                    <img alt='weatherimage' className='weatherimage' src={weatherimage} />
+                    <span className='statustyle'>{weatherdata.weatherstatus}</span>
                 </div>
             </div>
+                <WeatherDetails/>
         </div>
 
     )
