@@ -1,6 +1,8 @@
 import { weatherdata } from '../data/weatherdata';
 import weatherimage from '../assest/partly_cloudy.png'
 import WeatherDetails from './WeatherDetails';
+import DayLine from './DayLine';
+import BottomDetails from './BottomDetails';
 
 const WeatherCard = () => {
     return (
@@ -15,6 +17,8 @@ const WeatherCard = () => {
                 </div>
             </div>
                 <WeatherDetails/>
+                <DayLine/>
+                <BottomDetails/>
         </div>
 
     )

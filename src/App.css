@@ -46,21 +46,21 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  background: rgba(7, 80, 73, 0.794);
+  background: rgba(3, 50, 57, 0.794);
 }
 
 .card {
   overflow: hidden;
   width: 340px;
   padding: 25px;
-  height: 420px;
+  height: 440px;
   margin: 20px;
   border-radius: 10px;
   background-color: rgb(99, 147, 189);
   align-items: center;
   display: flex;
   flex-direction: column;
-  border: 2px solid rgba(255, 255, 255, 0.401);
+  border: 2px solid rgba(255, 255, 255, 0.319);
 }
 
 span {
@@ -91,4 +91,26 @@ span {
 .statustyle {
   margin-left: 45px;
   font-weight: 600;
+}
+
+p {
+  font-size: 12px;
+  color: rgba(128, 128, 128, 0.678);
+}
+.textstyle {
+  color: white;
+  font-weight: bolder;
+}
+
+.sunrisesunset{
+  color: white;
+  font-size: 12px;
+}
+.daystyle {
+  color: white;
+  font-weight: bolder;
+}
+.sunimage{
+  width: 20px;
+  margin-top: -20px;
 }
